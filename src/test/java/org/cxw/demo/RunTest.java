@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 @CucumberOptions(plugin = { "html:target/cucumber-html-report/report.html", "json:target/cucumber.json",
 		"pretty:target/cucumber-pretty.txt","junit:target/cucumber-results.xml" }, features = { "./src/resources/testcase"}, 
-		 glue = {"org.cxw.demo"} ,tags = {"@loginAsSuperAdmin_DefaultClient "})
+		 glue = {"org.cxw.demo"} ,tags = {"@CreateBusinessUserAndPrjects "})
 
   
 
