@@ -125,7 +125,7 @@ public class ProjectPage {
 				/* 
 				  Description:  Select Template CXMap	
 				 */
-				sleep(3000);
+				sleep(6000);
 				driver.findElement(e.drpdwnSelectTemplate).click();
 				By SelectTemplate = By.xpath("//span[@class='ng-binding ng-scope' and contains(text(),'" +list.get(i).get("Template")+ "')]");
 				driver.findElement(SelectTemplate).click();
