@@ -13,11 +13,15 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 14260209087,
+  "duration": 13565483330,
   "status": "passed"
 });
 formatter.scenario({
   "comments": [
+    {
+      "line": 28,
+      "value": "#  | Project_2 | This is project_2 | 2020-01-20 | Social |"
+    },
     {
       "line": 29,
       "value": "#   | Project_3 | This is project_3 | 2019-07-16 | Mobile |"
@@ -81,16 +85,10 @@ formatter.step({
       "line": 43
     },
     {
-      "comments": [
-        {
-          "line": 44,
-          "value": "# | Project_1 |"
-        }
-      ],
       "cells": [
-        "Project_2"
+        "Project_1"
       ],
-      "line": 45
+      "line": 44
     }
   ],
   "keyword": "Then "
@@ -109,20 +107,20 @@ formatter.match({
   "location": "LoginTest.user_login_as_business_user(String,String)"
 });
 formatter.result({
-  "duration": 535264864,
+  "duration": 486102995,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.user_select_default_client_and_project()"
 });
 formatter.result({
-  "duration": 6778641808,
+  "duration": 6750472692,
   "status": "passed"
 });
 formatter.match({
   "location": "ProjectTest.delete_project(DataTable)"
 });
 formatter.result({
-  "duration": 20544535273,
+  "duration": 20650640910,
   "status": "passed"
 });
