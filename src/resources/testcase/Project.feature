@@ -24,7 +24,7 @@ Feature: Project CRUD
      Then User select the default Client and Project 
      Then User edits projects with following details
      | Project Name | Description | End date | Channel |
-     | Project_1 | This is project_1 | 2019-02-02  | Social |
+   #  | Project_1 | This is project_1 | 2019-02-02  | Social |
   #  | Project_2 | This is project_2 | 2020-01-20 | Social |
   #   | Project_3 | This is project_3 | 2019-07-16 | Mobile |
   #   | Project_4 | This is project_4 | 2022-12-06 | Store |
